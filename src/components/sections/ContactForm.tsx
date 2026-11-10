@@ -201,7 +201,7 @@ export function ContactForm({ delivery }: { delivery: ContactDelivery }) {
         <div>
           <label htmlFor={`${formId}-contact`} className="mb-2 flex items-center gap-2 text-sm font-medium">
             <InlineIcon name="atSign" className="text-cyan" />
-            Email или Telegram <span className="sr-only">(обязательно)</span>
+            Email или Telegram(@burv_vlad) <span className="sr-only">(обязательно)</span>
           </label>
           <input
             ref={contactRef}
